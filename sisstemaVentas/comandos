@@ -1,0 +1,4 @@
+//actualiza las referencias y descarga los componentes
+composer update
+//Inicia el servidor en php
+php artisan serve
