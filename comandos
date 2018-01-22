@@ -1,0 +1,16 @@
+//crea la aplicacion
+composer create-project --prefer-dist laravel/laravel nombre
+//cambiar nombre de la aplicacion 
+php artisan app:name practicasUnam
+
+
+//actualiza las referencias y descarga los componentes
+composer update
+//Inicia el servidor en php
+php artisan serve
+//crea un modelo
+php artisan make:model Articulo
+//crea un request 
+php artisan make:request ArticuloFormRequest
+//crea un controlador
+php artisan make:controller ArticuloControlador
